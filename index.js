@@ -39,24 +39,24 @@ function toggleMobileMenu(menu) {
    
     
   
-=======
-const images = document.querySelectorAll('.images img');
+// =======
+// const images = document.querySelectorAll('.images img');
 
-images.forEach(img => {
-  img.addEventListener('mouseover', () => {
-    img.style.animation = 'none'; 
-    void img.offsetWidth; 
-    img.style.animation = 'spin 3s ease-in-out'; 
-  });
-});
-function toggleMobileMenu(menu) {
-  menu.classList.toggle('open');
-}
+// images.forEach(img => {
+//   img.addEventListener('mouseover', () => {
+//     img.style.animation = 'none'; 
+//     void img.offsetWidth; 
+//     img.style.animation = 'spin 3s ease-in-out'; 
+//   });
+// });
+// function toggleMobileMenu(menu) {
+//   menu.classList.toggle('open');
+// }
 
-const images = document.querySelectorAll('.image');
-images.forEach((image) => {
-  image.classList.add('new-position');
-});
+// const images = document.querySelectorAll('.image');
+// images.forEach((image) => {
+//   image.classList.add('new-position');
+// });
 
 // document.addEventListener("DOMContentLoaded", function(event) {
 //   var slides = document.getElementsByClassName("flex");

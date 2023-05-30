@@ -10,6 +10,68 @@
     gap: 4em; 
     margin-left: 5em;
 }
+.navbar {
+  justify-content: space-between;
+  display: flex;
+  background: linear-gradient(to right, rgb(124, 35, 124), rgb(243, 143, 160));
+  color: white;
+  padding:1%;
+}
+
+.navbar a {
+  padding:1%;
+  color: white;
+  text-decoration: none;
+}
+.int{
+text-align: center;
+color: rgb(124, 35, 124) ;
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  .navbar .hamburger {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .navbar .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+  }
+
+  .navbar .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .navbar .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navbar .menu {
+    display: none;
+  }
+
+  .navbar .menu.active {
+    display: block;
+  }
+}
+
+
 
 .butt{
     background-color:rgb(70, 20, 70);
