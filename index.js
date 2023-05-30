@@ -1,3 +1,13 @@
+
+const images = document.querySelectorAll('.images img');
+
+images.forEach(img => {
+  img.addEventListener('mouseover', () => {
+    img.style.animation = 'none'; 
+    void img.offsetWidth; 
+    img.style.animation = 'spin 3s ease-in-out'; 
+  });
+});
 function toggleMobileMenu(menu) {
   menu.classList.toggle('open');
 }
@@ -22,4 +32,5 @@ images.forEach((image) => {
 //     slides[currentIndex].style.left = "0";
 //   }, 3000); // Change slide every 3 seconds
 // });
+
 
