@@ -32,15 +32,15 @@ function toggleMobileMenu(menu) {
   // Start changing background images after 5 seconds
   setInterval(changeBackgroundImage, 5000);
   
-  function toggleMenu() {
-      var navbar = document.querySelector('.navbar');
-      navbar.classList.toggle('collapsed');
-    }
+//   function toggleMenu() {
+//       var navbar = document.querySelector('.navbar');
+//       navbar.classList.toggle('collapsed');
+//     }
    
     
   
-// =======
-// const images = document.querySelectorAll('.images img');
+
+// const images = document.querySelectorAll('.imagess img');
 
 // images.forEach(img => {
 //   img.addEventListener('mouseover', () => {
